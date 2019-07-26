@@ -1,0 +1,12 @@
+.myJumbo {
+    text-align: center;
+    color: white;
+    background: black;
+}
+.mainBody {
+    background-image: url("../images/standing.jpg");
+}
+.myBtn {
+    background: grey;
+    border-color: grey;
+}
