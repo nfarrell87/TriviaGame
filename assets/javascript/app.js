@@ -93,6 +93,7 @@ function game() {
         let guess = $(this).text()
         if (guess === correct) {
             clearTimeout(intervalId);
+            alert("Correct!! Good job!");
             current++;
             total++;
             wins++;
@@ -100,6 +101,7 @@ function game() {
         }
         if (guess !== correct) {
             clearTimeout(intervalId);
+            alert("Wrong!! The correct answer was: " + questions[current].correctAnswer);
             current++;
             losses++;
             total++;
