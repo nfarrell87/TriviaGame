@@ -2,6 +2,7 @@
     text-align: center;
     color: white;
     background: black;
+    opacity: 0.9;
 }
 .mainBody {
     background-image: url("../images/standing.jpg");
@@ -13,4 +14,10 @@
 .guessBtn {
     background: grey;
     border-color: grey;
+    color: white;
+}
+.myImg {
+    height: 300px;
+    width: 500px;
+    display: none;
 }
